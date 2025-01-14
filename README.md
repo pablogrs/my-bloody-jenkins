@@ -78,13 +78,17 @@ docker pull odavid/my-bloody-jenkins:lts
 docker pull odavid/my-bloody-jenkins:lts-debian
 # get the latest jdk17 release
 docker pull odavid/my-bloody-jenkins:lts-jdk17
+# get the latest jdk21 release
+docker pull odavid/my-bloody-jenkins:lts-jdk21
 
 # get the latest 2.479.3 LTS
 docker pull odavid/my-bloody-jenkins:2.479.3
 # get the latest 2.479.3 debian LTS
 docker pull odavid/my-bloody-jenkins:2.479.3-debian
 # get the latest 2.479.3 jdk17 LTS
-docker pull odavid/my-bloody-jenkins:2.479.3-jdk
+docker pull odavid/my-bloody-jenkins:2.479.3-jdk17
+# get the latest 2.479.3 jdk21 LTS
+docker pull odavid/my-bloody-jenkins:2.479.3-jdk21
 
 # get a concrete 2.479.3 release
 docker pull odavid/my-bloody-jenkins:v2.479.3-109
@@ -93,8 +97,10 @@ docker pull odavid/my-bloody-jenkins:v2.479.3-109
 docker pull odavid/my-bloody-jenkins
 # get the latest unstable debian image
 docker pull odavid/my-bloody-jenkins:debian
-# get the latest unstable jdk1 image
+# get the latest unstable jdk17 image
 docker pull odavid/my-bloody-jenkins:jdk17
+# get the latest unstable jdk21 image
+docker pull odavid/my-bloody-jenkins:jdk21
 ```
 
 ### Alternate docker registry
