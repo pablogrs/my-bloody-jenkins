@@ -76,25 +76,25 @@ Each master commit, will be tagged as latest
 docker pull odavid/my-bloody-jenkins:lts
 # get the latest debian release
 docker pull odavid/my-bloody-jenkins:lts-debian
-# get the latest jdk11 release
-docker pull odavid/my-bloody-jenkins:lts-jdk11
+# get the latest jdk17 release
+docker pull odavid/my-bloody-jenkins:lts-jdk17
 
-# get the latest 2.164.1 LTS
-docker pull odavid/my-bloody-jenkins:2.164.1
-# get the latest 2.164.1 debian LTS
-docker pull odavid/my-bloody-jenkins:2.164.1-debian
-# get the latest 2.164.1 jdk11 LTS
-docker pull odavid/my-bloody-jenkins:2.164.1-jdk
+# get the latest 2.479.3 LTS
+docker pull odavid/my-bloody-jenkins:2.479.3
+# get the latest 2.479.3 debian LTS
+docker pull odavid/my-bloody-jenkins:2.479.3-debian
+# get the latest 2.479.3 jdk17 LTS
+docker pull odavid/my-bloody-jenkins:2.479.3-jdk
 
-# get a concrete 2.164.1 release
-docker pull odavid/my-bloody-jenkins:v2.164.1-109
+# get a concrete 2.479.3 release
+docker pull odavid/my-bloody-jenkins:v2.479.3-109
 
 # get the latest unstable image (alpine)
 docker pull odavid/my-bloody-jenkins
 # get the latest unstable debian image
 docker pull odavid/my-bloody-jenkins:debian
 # get the latest unstable jdk1 image
-docker pull odavid/my-bloody-jenkins:jdk11
+docker pull odavid/my-bloody-jenkins:jdk17
 ```
 
 ### Alternate docker registry
